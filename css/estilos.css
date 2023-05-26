@@ -106,7 +106,7 @@ section.seccion2{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    max-height: 98vh;
+    height: 110vh;
 }
 
 section.seccion2 > article {
@@ -210,10 +210,16 @@ section.seccion3 > aside > div > figure > img {
     display: flex;
     flex-direction: column;
     padding-left: 10vh;
-    width: 8vh;
+    width: 12vh;
     height: 8vh;
     margin-right: 3vh;
     align-self: flex-end;
+}
+
+section.seccion3 > aside > div > figure.PCfoto {
+    display: flex;
+    width: 8vh;
+    height: 8vh;
 }
 
 section.seccion3 > aside > div > h4 {
